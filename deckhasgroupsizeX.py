@@ -9,3 +9,9 @@ class Solution:
         counts = []
         for i in sortedsetdeck:
             counts.append(sorteddeck.count(i))
+        for i in counts:
+            for j in (i,len(counts)):
+                if i != j:
+                    return False
+                else:
+                    return True
