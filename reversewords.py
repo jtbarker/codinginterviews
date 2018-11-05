@@ -4,8 +4,9 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
-        listwords = s.split(" ")
-        ans = []
-        for i in listwords:
-            ans.append(i[::-1]) #reverse individual words
-        return " ".join(ans) #make a list into a string and add spaces between
+        lst = s.split()
+        newlist = []
+        for i in reversed(lst):
+            newlist.append(i)
+        return ' '.join(newlist)
+    
