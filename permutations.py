@@ -7,5 +7,5 @@ def perm(n, i):
         for j in range(i,len(n)):
             n[i], n[j] = n[j], n[i]
             perm(n,i + 1)
-            n[i], n[j] = n[j], n[i]
-print(perm([1,2,3],0))
+            n[i], n[j] = n[j], n[i] #this cleans it up for the next pass
+print(perm([1,2,3,4],0))
