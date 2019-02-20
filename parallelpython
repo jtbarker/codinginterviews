@@ -1,7 +1,0 @@
-import collections
-import multiprocessing
-
-Scientist = collections.namedtuple('Scientist', [
-    'name',
-    'born',
-])
