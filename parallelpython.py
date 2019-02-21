@@ -1,3 +1,5 @@
+""" credit to Dan Bader for this example"""
+
 import collections
 import multiprocessing
 
@@ -26,3 +28,4 @@ pool = multiprocessing.Pool()
 result = pool.map(process_item, scientists)
 
 print(tuple(result))
+
