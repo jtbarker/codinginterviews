@@ -1,22 +1,17 @@
-def stringstartingconsonant(a):
+def minion_game(string):
+    # your code goes here
     vowel = 'aeiou'
     consonant = 'bcdfghjklmnpqrstvwxyz'
-    length = len(a)
+    length = len(string)
+    consonantsubstring = []
+    vowelsubstring = []
     result = []
-    "below comments shows how to do this with a list comprehension, faster and cleaner"
-    if a[0] in consonant:
-        result = [a[i:j + 1] for i in range(length) for j in range(i, length)]
-    return result
+    for i in string:
+        if i in consonant:
+            consonantsubstring = [a[i:j + 1] for i in range(length) for j in range(i, length)]
+        else:
+            vowelsubstring = [a[i:j + 1] for i in range(length) for j in range(i, length)]
+    stuartscore = [[x,consonantsubstring.count(x)] for x in set(consonantsubstring)]
+    kevinscore = [[x,vowelsubstring.count(x)] for x in set(vowelsubstring)]
 
-    if a[0] in consonant:
-        for i in range(length):
-            for j in range(i,length):
-                result.append(a[i:j+1])
-    else:
-        for i in range(length):
-            for j in range(i,length):
-                result.append(a[i:j+1])
-
-    return result
-
-print(stringstartingconsonant('banana'))
+print(stuartscore)
