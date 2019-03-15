@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfde6ba6-14f7-491e-99a1-afa7f45186bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/convertnumtohex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/magicnumber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codinginterviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codinginterviews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allsubstrings.py" beforeDir="false" afterPath="$PROJECT_DIR$/allsubstrings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,11 +98,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="-1410" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="400" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -253,15 +248,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="-1410" width="2560" height="1417" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09058685" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13863774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4445283" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.62994653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
